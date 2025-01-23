@@ -31,3 +31,9 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Ignore .mvn directory, except for wrapper files
+.mvn/*
+!.mvn/wrapper
+!.mvn/wrapper/**
+!.mvn/extensions.xml
